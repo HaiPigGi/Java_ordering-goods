@@ -1,0 +1,36 @@
+.root {
+    -fx-background-image: url('../image/imgae1.jpg'); /* Ganti dengan path gambar Anda */
+    -fx-background-size: cover;
+}
+
+.grid-pane {
+    -fx-background-color: rgba(255, 255, 255, 0.8); /* Ganti dengan warna latar belakang yang diinginkan */
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+}
+.label-text-white {
+    -fx-text-fill: white;
+    -fx-font-family: "Arial"; /* Change to the desired font family */
+    -fx-font-size: 14px; /* Change to the desired font size */
+    -fx-font-style: italic; /* Change to the desired font style (normal, italic, oblique) */
+    -fx-font-weight: bold; /* Change to the desired font weight (normal, bold) */
+}
+
+.text-field {
+    -fx-font-family: "Arial"; /* Change to the desired font family */
+    -fx-font-size: 14px; /* Change to the desired font size */
+    -fx-font-style: italic; /* Change to the desired font style (normal, italic, oblique) */
+    -fx-font-weight: bold; /* Change to the desired font weight (normal, bold) */
+}
+
+.button {
+    -fx-font-family: "Arial"; /* Change to the desired font family */
+    -fx-font-size: 14px; /* Change to the desired font size */
+    -fx-font-style: italic; /* Change to the desired font style (normal, italic, oblique) */
+    -fx-font-weight: bold; /* Change to the desired font weight (normal, bold) */
+}
+/* style.css */
+Label {
+    -fx-text-fill: white;
+}
+
